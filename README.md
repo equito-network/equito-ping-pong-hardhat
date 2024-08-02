@@ -1,6 +1,8 @@
-# Equito Hardhat Template
+# Equito Ping Pong Example with Hardhat
 
-Welcome to the Equito Hardhat Template! This project is pre-configured for Equito EVM smart contract development and deployment using Hardhat. It also includes contracts from the [equito-evm-contracts](https://github.com/equito-network/equito-evm-contracts) repository. If you're looking to use Hardhat as a framework to build and deploy your smart contracts, this template repository offers a robust foundation to get started quickly. Fork this template, create new files in the `contracts/` folder, and start building your smart contracts right away!
+Welcome to the Equito Ping Pong Example with Hardhat repository! Its purpose is to showcase how to write cross-chain contracts using Equito, the fastest cross-chain protocol. This example has been created by following the guide in [the official documentation](https://docs.equito.network/tutorial/intro).
+
+This repository has been generated using the [Equito Hardhat Template](https://github.com/equito-network/equito-hardhat-template), pre-configured for Equito EVM smart contract development and deployment using Hardhat. It also includes contracts from the [equito-evm-contracts](https://github.com/equito-network/equito-evm-contracts) repository. If you're looking to use Hardhat as a framework to build and deploy your smart contracts, this template repository offers a robust foundation to get started quickly. Fork this template, create new files in the `contracts/` folder, and start building your smart contracts right away!
 
 ## Project structure
 
