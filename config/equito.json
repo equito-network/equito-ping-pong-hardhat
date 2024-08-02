@@ -1,0 +1,12 @@
+{
+  "peers": [
+    {
+      "name": "ethereum sepolia",
+      "address": "0x<your-contract-address-here>"
+    },
+    {
+      "name": "bsc testnet",
+      "address": "0x<your-contract-address-here>"
+    }
+  ]
+}

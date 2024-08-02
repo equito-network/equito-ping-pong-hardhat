@@ -1,0 +1,3 @@
+[submodule "lib/equito"]
+	path = lib/equito
+	url = https://github.com/equito-network/equito-evm-contracts.git

@@ -1,0 +1,34 @@
+{
+  "name": "equito-hardhat-template",
+  "scripts": {
+    "hardhat:compile": "npx hardhat compile",
+    "hardhat:typechain": "npx hardhat typechain",
+    "hardhat:deploy": "npx hardhat run scripts/deployUserContract.ts",
+    "hardhat:setpeers": "npx hardhat run scripts/setPeers.ts",
+    "hardhat:test": "npx hardhat test",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.6",
+    "@nomicfoundation/hardhat-foundry": "^1.1.2",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/parser": "^7.14.1",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "ethers": "^6.13.1",
+    "hardhat": "^2.22.6",
+    "hardhat-dependency-compiler": "^1.2.1",
+    "typechain": "^8.3.2"
+  },
+  "dependencies": {
+    "@equito-sdk/client": "^0.1.4",
+    "@equito-sdk/ethers": "^0.1.3"
+  }
+}
